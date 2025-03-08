@@ -17,7 +17,7 @@ const adminLimiter = rateLimit({
 })
 
 app.get("/", (req, res) => {
-    res.send("Server is running!")
+    res.send("Welcome to ze rate limiter project!")
 })
 
 //public: No rate limiting!
